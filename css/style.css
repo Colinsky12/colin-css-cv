@@ -1,0 +1,192 @@
+body {
+  margin: 0px;
+  }
+
+/****************   Nav Section **********************/
+nav {
+  display: flex;
+  justify-content: space-between;
+	background-color: #A1AE96;
+  color: #92645D;
+  text-align: center;
+  border-style: solid;
+  border-color: #41343D;
+  border-width: 5px 5px 3px 5px;
+  font-size: 15px;
+  padding: 3px;
+}
+
+/***********************  Footer Section   **************************/
+footer {
+	display: flex;
+  justify-content: center;
+  border-style: solid;
+  border-width: 3px 5px 5px 5px;
+  background-color: #C0CBB9;
+  border-color: #41343D;
+  text-align: center;
+}
+
+/*********** Splash Page ************************/
+header {
+  background-color: #C0CBB9;
+  padding: 1px;
+  border-width: 0px 5px 3px 5px;
+  border-style: solid;
+  border-color: #41343D;
+  display: block;
+  margin: auto;
+}
+
+header h1 {
+  display: block;
+  margin: auto;
+  width: 50%;
+  text-align: center;
+  font-size: 55px;
+  font-family: "Courier New", monospace;
+  color: beige;
+  padding: 1px;
+}
+
+header img {
+  display: block;
+  margin: auto;
+  width: 50%;
+  border-style: solid;
+  border-radius: 50%;
+  align-self: center;
+  width: 250px;
+}
+
+.address {
+  text-align: center;
+  background-color: #A1AE96;
+  padding: 1px;
+  border-style: solid;
+  border-width: 0px 5px 0px 5px;
+  padding: 1px;
+  margin: 0px;
+  border-color: #41343D;
+}
+
+.tagline {
+  text-align: center;
+  background-color: #A1AE96;
+  padding: 1px;
+  border-style: solid;
+  border-width: 0px 5px 0px 5px;
+  padding: 2px;
+  padding-bottom: 3px;
+  margin: 0px;
+  border-color: #41343D;
+}
+
+/************* Sections ********************/
+hr {
+  border: 0;
+  height: 3px;
+  background-color: #41343D;
+  margin: 0px;
+}
+
+section h3 {
+  font-size: 55px;
+  font-family: "Courier New", monospace;
+  color: beige;
+  padding: 1px;
+}
+
+section dl {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  border-style: solid;
+  border-width: 3px 5px 3px 5px;
+  border-color: #41343D;
+  margin: 0px;
+  padding: 5px;
+  background-color: #A1AE96;
+}
+
+
+section ul {
+  text-decoration: none;
+  border-width: 3px 5px 3px 5px;
+  border-color: #41343D;
+  margin: 0px;
+  padding: 20px;
+  background-color: #A1AE96;
+}
+
+section a {
+  color: #EBEBEB;
+  text-decoration: none;
+}
+
+section a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+/**************   Projects   *****************/
+.three-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 0.25rem;
+  background-color: #41343D;
+  margin: 0px;
+  border-style: solid;
+  border-color: #41343D;
+  border-width: 3px 5px 0px 5px;
+}
+
+.card img {
+  border-style: solid;
+  border-color: #92645D;
+  border-width: 3px;
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.card {
+  background-color: #A1AE96;
+  width: auto;
+  margin: 0px;
+  padding: 10px;
+}
+
+
+/**************   Responsiveness   *****************/
+@media (max-width: 680px) {
+    nav {
+      flex-direction: column;
+    }
+
+    .three-col {
+      /* display: grid; */
+      grid-template-columns: 1fr;
+    }
+}
+
+/**************   Contact Page   *****************/
+.one-col {
+  display: grid;
+  grid-template-columns: 1fr;
+  /* display: flex;
+  flex-direction: column; */
+  border-style: solid;
+  border-color: #41343D;
+  border-width: 0px 5px 0px 5px;
+  margin: 0px;
+}
+
+input {
+  background-color: #EBEBEB;
+  border-color: black;
+}
+
+textarea {
+   background-color: #EBEBEB;
+   border-color: black;
+}
